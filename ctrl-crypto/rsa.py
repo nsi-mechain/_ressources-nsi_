@@ -25,17 +25,17 @@ print(f'd: {d}')
 cle_pub = (e, n)
 cle_priv = (d, n)
 
-print(f'Clé publique: {cle_pub}')
-print(f'Clé privée: {cle_priv}')
+print(f'Clé publique : {cle_pub}')
+print(f'Clé privée : {cle_priv}')
 
 # Message à chiffrer (valeur maxi : n-1)
 message = 5
-print(f'Message original: {message}')
+print(f'Message original : {message}')
 
 # Chiffrement : c = m^e mod n
 chif = pow(message, e, n)
-print(f"Message chiffré: {chif}")
+print(f"Message chiffré : {chif}")
 
 # Déchiffrement : m = c^d mod n
 dechif = pow(chif, d, n)
-print(f"Message déchiffré: {dechif}")
+print(f"Message déchiffré : {dechif}")
