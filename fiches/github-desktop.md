@@ -27,11 +27,11 @@
 
 ## ✍️ Travailler sur le projet
 
-- Modifiez le contenu du répertoire de dépôt (édition, ajout de fichiers et dossiers, suppression, etc.)
+- Modifiez le contenu du répertoire de dépôt (édition, ajout, suppression, nouveaux dossiers, etc.)
 
 ---
 
-## ✅ Enregistrer les modifications (*commit*)
+## ✅ Enregistrer les modifications (commit)
 
 1. Dans GitHub Desktop, ouvrez l’onglet **Changes**
 2. Vérifiez les fichiers modifiés
@@ -40,13 +40,13 @@
 
 ---
 
-## 🔄 Envoyer les modifications sur GitHub (*push*)
+## 🔄 Envoyer les modifications sur GitHub (push)
 
 1. Cliquez sur **Push origin** pour envoyer vos commits sur le dépôt GitHub
 
 ---
 
-## 🔃 Récupérer les modifications du dépôt (*pull*)
+## 🔃 Récupérer les modifications du dépôt (pull)
 
 1. Cliquez sur **Fetch origin** puis **Pull origin** pour obtenir les dernières modifications depuis GitHub
 
