@@ -1,7 +1,6 @@
 .mode box
 .echo on
 
-
 --1
 CREATE TABLE trimestre2 (Id INTEGER PRIMARY KEY,
                          Nom TEXT,
