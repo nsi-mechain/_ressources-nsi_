@@ -1,6 +1,7 @@
 # Choix de petits nombres premiers p et q
 p = 3
 q = 11
+
 # Choix d'un exposant e (doit être premier avec φ(n))
 e = 3
 
