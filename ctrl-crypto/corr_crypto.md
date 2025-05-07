@@ -1,4 +1,3 @@
-
 # Corrigé
 
 ## 1) Chiffrement XOR
