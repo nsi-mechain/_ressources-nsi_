@@ -26,7 +26,7 @@ cle_priv = (d, n)
 print(f'Clé publique: {cle_pub}')
 print(f'Clé privée: {cle_priv}')
 
-# Message à chiffrer (maxi: n-1)
+# Message à chiffrer (valeur maxi : n-1)
 message = 5
 print(f'Message original: {message}')
 
