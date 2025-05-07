@@ -34,7 +34,7 @@ Clé : 1101001001
 1 XOR 0 = 1  
 1 XOR 1 = 0  
 
-Message déchiffé : 1010110010
+Message déchiffré : 1010110010
 
 ---
 
