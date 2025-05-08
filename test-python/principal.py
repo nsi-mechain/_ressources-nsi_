@@ -1,4 +1,3 @@
 import module1
 
-print(f'résultat : {module1.f(5)}')
-
+print(f'résultat : {module1.f(1)}')
