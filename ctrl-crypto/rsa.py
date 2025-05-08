@@ -1,4 +1,3 @@
-
 # Choix de petits nombres premiers p et q
 p = 3
 q = 11
