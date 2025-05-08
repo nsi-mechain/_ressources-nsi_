@@ -1,6 +1,7 @@
 # Choix de petits nombres premiers p et q
 p = 3
 q = 11
+
 # Choix d'un exposant e (doit être premier avec φ(n))
 e = 3
 
@@ -23,17 +24,17 @@ print(f'd: {d}')
 cle_pub = (e, n)
 cle_priv = (d, n)
 
-print(f'Clé publique: {cle_pub}')
-print(f'Clé privée: {cle_priv}')
+print(f'Clé publique : {cle_pub}')
+print(f'Clé privée : {cle_priv}')
 
-# Message à chiffrer (maxi: n-1)
+# Message à chiffrer (valeur maxi : n-1)
 message = 5
-print(f'Message original: {message}')
+print(f'Message original : {message}')
 
 # Chiffrement : c = m^e mod n
 chif = pow(message, e, n)
-print(f"Message chiffré: {chif}")
+print(f"Message chiffré : {chif}")
 
 # Déchiffrement : m = c^d mod n
 dechif = pow(chif, d, n)
-print(f"Message déchiffré: {dechif}")
+print(f"Message déchiffré : {dechif}")
