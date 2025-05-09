@@ -1,0 +1,44 @@
+# Fichiers temporaires et sauvegardes
+*~
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers de l'environnement de développement
+.vscode/
+.idea/
+*.code-workspace
+
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+
+# Fichiers LaTeX temporaires
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Fichiers Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Dossiers de build ou de distribution
+build/
+dist/
+*.egg-info/
+
+# Fichiers de configuration personnels
+.env
+*.secret
+config.json
+
