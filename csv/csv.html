@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>csv.md</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h1 id="fichiers-csv-et-python">Fichiers CSV et Python</h1>
+<ol>
+<li>Fichiers CSV (voir <a href="https://fr.wikipedia.org/wiki/Comma-separated_values">ici</a>)</li>
+</ol>
+<hr>
+<ol start="2">
+<li>Rappel : Lecture et écriture dans un fichier texte en Python :
+<ul>
+<li>Créez un programme <code>wt.py</code> qui enregistre dans un fichier texte “t.txt” un petit texte entré au clavier.</li>
+<li>Créez un programme <code>rt.py</code> qui affiche à l’écran le texte contenu dans “t.txt”.</li>
+<li>Ajoutez les “sécurités nécessaires” à ces deux programmes (vérification de l’existence).</li>
+</ul>
+</li>
+</ol>
+<hr>
+<ol start="3">
+<li>Copié-collé (collage texte brut) de l’exemple de <em>Wikipédia</em> dans le tableur <em>Libreoffice Calc</em>. Export en CSV, puis ouverture avec éditeur de texte pour vérification et modification manuelle.</li>
+</ol>
+<hr>
+<ol start="4">
+<li>Lecture et écriture de fichiers CSV en <em>Python</em>  (utilisez le <a href="https://docs.python.org/fr/3/library/csv.html">module csv</a>) :
+<ul>
+<li>Lecture d’un CSV (reprendre l’exemple <em>Wikipédia</em> en l’étoffant pour avoir 10 enregistrements) et création d’une <strong>liste de dictionnaires</strong> (dont les clés sont les noms des colonnes) en Python.</li>
+<li>Création d’un CSV à partir d’une <strong>liste de dictionnaires</strong> en Python</li>
+<li>Sélection et affichage des enregistrements vérifiant le critère <strong>personnes nées après 1970</strong></li>
+<li>Affichage des noms par <strong>âges croissants</strong> des personnes enregistrées</li>
+</ul>
+</li>
+</ol>
+<hr>
+<ol start="5">
+<li>Application :
+<ul>
+<li>En <em>Python</em>, concevez un programme permettant d’obtenir un fichier CSV qui contiendra 20 enregistrements. Ces enregistrements indiqueront la date, l’heure, la mémoire vive utilisée (en %) et l’utilisation du CPU (en %)  pendant une minute (un enregistrement toutes les trois secondes). Utilisez les modules <em>psutils</em>, <em>datetime</em> et <em>time</em>.</li>
+<li>Avec un tableur (<em>libreoffice Calc</em>), tracez le graphe d’utilisation de la RAM et du CPU en fonction de l’heure.</li>
+<li>Travail complémentaire (si vous avez fini ce qui précède) : Effectuez ce tracé avec un programme python utilisant <em>matplotlib</em>.</li>
+</ul>
+</li>
+</ol>
+</div>
+</body>
+
+</html>

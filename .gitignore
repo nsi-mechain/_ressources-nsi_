@@ -1,44 +1,48 @@
-# Fichiers temporaires et sauvegardes
-*~
-*.bak
-*.tmp
-*.swp
-*.swo
+#################################
+# Fichiers temporaires et système
+#################################
+**/*.log
+**/*.tmp
+**/*.bak
+**/.DS_Store
+**/Thumbs.db
 
-# Fichiers système
-.DS_Store
-Thumbs.db
+#################################
+# Fichiers d'éditeurs (Vim, VS Code…)
+#################################
+**/*.swp
+**/*.swo
+**/.vscode/
 
-# Fichiers de l'environnement de développement
-.vscode/
-.idea/
-*.code-workspace
+#################################
+# Python
+#################################
 
-# Fichiers Python compilés
-__pycache__/
-*.py[cod]
+# Bytecode compilé
+**/__pycache__/
+**/*.py[cod]
 
-# Fichiers LaTeX temporaires
-*.aux
-*.log
-*.out
-*.toc
-*.lof
-*.lot
-*.fls
-*.fdb_latexmk
-*.synctex.gz
+# Environnements virtuels
+**/venv/
+**/env/
 
-# Fichiers Jupyter Notebook checkpoints
-.ipynb_checkpoints/
+# Checkpoints Jupyter
+**/*.ipynb_checkpoints
 
-# Dossiers de build ou de distribution
-build/
-dist/
-*.egg-info/
+#################################
+# C
+#################################
 
-# Fichiers de configuration personnels
-.env
-*.secret
-config.json
+# Fichiers objets et dépendances
+**/*.o
+**/*.d
+
+# Exécutables
+# **/*.exe
+**/*.out
+**/*.elf
+
+# Répertoires de compilation
+**/build/
+**/bin/
 
